@@ -1,0 +1,317 @@
+{
+    "$schema": "./node_modules/json-server/schema.json",
+    "features": [
+        {
+            "id": 1,
+            "icon": "fa-solid fa-book-open-reader",
+            "title": "Complete Learning",
+            "desc": "Master the art of cooking with our comprehensive curriculum, suitable for all skill levels."
+        },
+        {
+            "id": 2,
+            "icon": "fa-solid fa-users",
+            "title": "Virtual Kitchen Practice",
+            "desc": "Immerse yourself in hands-on cooking through our interactive virtual kitchen, where you can practice recipes and engage with a supportive community."
+        },
+        {
+            "id": 3,
+            "icon": "fa-solid fa-graduation-cap",
+            "title": "Expert-Led Masterclasses",
+            "desc": "Elevate your skills with exclusive, real-time masterclasses led by industry, staying, updated on the latest culinary trendes."
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "badge": "New",
+            "title": "Moroccan Culinary Delights Masterclass",
+            "lessons": "35 Lessons",
+            "duration": "25 Hours",
+            "enrolled": "+6.5K",
+            "courseImage": "https://images.unsplash.com/photo-1541518763669-27fef04b14e8?auto=format&fit=crop&w=800&q=80",
+            "instructor": "3+ Multiple instructors",
+            "instructorImage": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 2,
+            "badge": "New",
+            "title": "Salad Mastery: Fresh Flavors, Endless Varieties",
+            "lessons": "35 Lessons",
+            "duration": "13 Hours",
+            "enrolled": "+2.7K",
+            "courseImage": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+            "instructor": "James King",
+            "instructorImage": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 3,
+            "badge": "Popular",
+            "title": "Taste the World: International Flavors",
+            "lessons": "35 Lessons",
+            "duration": "45 Hours",
+            "enrolled": "+52.5K",
+            "courseImage": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Sara Meziani",
+            "instructorImage": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 4,
+            "badge": "Best Seller",
+            "title": "Artisanal Bread Baking & Fermentation Secrets",
+            "lessons": "28 Lessons",
+            "duration": "18 Hours",
+            "enrolled": "+14.2K",
+            "courseImage": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Marco Rossi",
+            "instructorImage": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 5,
+            "badge": "Popular",
+            "title": "Italian Pasta Essentials: From Scratch to Plate",
+            "lessons": "40 Lessons",
+            "duration": "30 Hours",
+            "enrolled": "+38.9K",
+            "courseImage": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Giovanni Silva",
+            "instructorImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 6,
+            "badge": "New",
+            "title": "Japanese Sushi & Ramen Fundamentals",
+            "lessons": "32 Lessons",
+            "duration": "22 Hours",
+            "enrolled": "+8.1K",
+            "courseImage": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Kenji Takahashi",
+            "instructorImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 7,
+            "badge": "Trending",
+            "title": "French Pastry & Fine Dessert Creation",
+            "lessons": "45 Lessons",
+            "duration": "35 Hours",
+            "enrolled": "+21.4K",
+            "courseImage": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Claire Dubois",
+            "instructorImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 8,
+            "badge": "Popular",
+            "title": "Authentic Indian Curry & Spice Blending",
+            "lessons": "30 Lessons",
+            "duration": "20 Hours",
+            "enrolled": "+19.8K",
+            "courseImage": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Priya Sharma",
+            "instructorImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 9,
+            "badge": "New",
+            "title": "Plant-Based & Vegan Gourmet Cooking",
+            "lessons": "26 Lessons",
+            "duration": "16 Hours",
+            "enrolled": "+4.3K",
+            "courseImage": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Elena Rostova",
+            "instructorImage": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 10,
+            "badge": "Best Seller",
+            "title": "The Ultimate Steak & BBQ Pitmaster Guide",
+            "lessons": "24 Lessons",
+            "duration": "14 Hours",
+            "enrolled": "+41.0K",
+            "courseImage": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Chef Daniel Vance",
+            "instructorImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 11,
+            "badge": "Trending",
+            "title": "Mexican Street Food & Salsa Crafting",
+            "lessons": "22 Lessons",
+            "duration": "12 Hours",
+            "enrolled": "+11.7K",
+            "courseImage": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Mateo Hernandez",
+            "instructorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 12,
+            "badge": "New",
+            "title": "Thai Street Cooking & Aromatic Soups",
+            "lessons": "29 Lessons",
+            "duration": "19 Hours",
+            "enrolled": "+5.6K",
+            "courseImage": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Somchai Prasert",
+            "instructorImage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 13,
+            "badge": "Popular",
+            "title": "Classic Mediterranean Diet & Seafood Secrets",
+            "lessons": "38 Lessons",
+            "duration": "28 Hours",
+            "enrolled": "+16.5K",
+            "courseImage": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Nikolai Papadopoulos",
+            "instructorImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 14,
+            "badge": "Best Seller",
+            "title": "Chocolate Confectionery & Truffle Making",
+            "lessons": "20 Lessons",
+            "duration": "10 Hours",
+            "enrolled": "+29.3K",
+            "courseImage": "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Sophie Laurent",
+            "instructorImage": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 15,
+            "badge": "New",
+            "title": "Middle Eastern Feast: Hummus, Kebabs & Meze",
+            "lessons": "31 Lessons",
+            "duration": "21 Hours",
+            "enrolled": "+3.9K",
+            "courseImage": "https://images.unsplash.com/photo-1541518763669-27fef04b14e8?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Tariq Al-Mansoor",
+            "instructorImage": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 16,
+            "badge": "Trending",
+            "title": "Modern Sous-Vide & Molecular Gastronomy",
+            "lessons": "18 Lessons",
+            "duration": "15 Hours",
+            "enrolled": "+7.8K",
+            "courseImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Alexandre Martin",
+            "instructorImage": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 17,
+            "badge": "Popular",
+            "title": "Korean Home Cooking: Kimchi, BBQ & Stews",
+            "lessons": "33 Lessons",
+            "duration": "24 Hours",
+            "enrolled": "+24.1K",
+            "courseImage": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Min-Ji Park",
+            "instructorImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 18,
+            "badge": "New",
+            "title": "Quick 15-Minute Meal Prep for Busy Professionals",
+            "lessons": "15 Lessons",
+            "duration": "8 Hours",
+            "enrolled": "+9.4K",
+            "courseImage": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Rachel Adams",
+            "instructorImage": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 19,
+            "badge": "Best Seller",
+            "title": "Gluten-Free Baking & Healthy Desserts",
+            "lessons": "27 Lessons",
+            "duration": "17 Hours",
+            "enrolled": "+18.2K",
+            "courseImage": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Emma Watson",
+            "instructorImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+        },
+        {
+            "id": 20,
+            "badge": "Trending",
+            "title": "Spanish Tapas & Paella Masterclass",
+            "lessons": "34 Lessons",
+            "duration": "23 Hours",
+            "enrolled": "+13.6K",
+            "courseImage": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?auto=format&fit=crop&w=800&q=80",
+            "instructor": "Carlos Garcia",
+            "instructorImage": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=200&q=80"
+        }
+    ],
+    "instructore":[
+        {
+            "image": "https://i.pinimg.com/1200x/33/16/b6/3316b6d3761875ae3eace0075aef80d0.jpg",
+            "name" : "Calra Elena",
+            "food" : "Pastry Artisan"
+        },
+        {
+            "image": "https://i.pinimg.com/736x/43/6d/9b/436d9b2836e77c1ce5bf578c31addedd.jpg",
+            "name" : "sara Mezinai",
+            "food" : "Moroccan food"
+        },
+        {
+            "image": "https://i.pinimg.com/1200x/2e/3a/b4/2e3ab40be350b1c51d0681bab1422e11.jpg",
+            "name" : "Steve Dylan",
+            "food" : "Sushi Maestro"
+        }
+    ],
+    "resources": [
+    {
+      "id": 1,
+      "imageUrl": "https://your-domain.com/images/blogs/moroccan-cooking.jpg",
+      "title": "Moroccan Cooking Art Masterclass",
+      "description": "Embark on a culinary journey with our Moroccan Cooking Art Masterclass, where the rich tapestry of Moroccan flavors comes to life.",
+      "date": "Jun 1, 2024",
+      "category": "Blog",
+      "link": "/blog/moroccan-cooking-art-masterclass"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://your-domain.com/images/blogs/salmon-fresh-flavors.jpg",
+      "title": "Salad Symphony: The Art of Fresh Flavors",
+      "description": "Dive into a world of crisp greens, vibrant veggies, and tantalizing dressings with our Salad Symphony: Mastering the Art of Fresh Flavors.",
+      "date": "Jun 1, 2024",
+      "category": "Blog",
+      "link": "/blog/salad-symphony-fresh-flavors"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://your-domain.com/images/blogs/japanese-cuisine.jpg",
+      "title": "Savoring Japan: A Culinary Voyage",
+      "description": "Immerse yourself in the art of Japanese cuisine, where precision meets passion in every dish.",
+      "date": "Jun 1, 2024",
+      "category": "Blog",
+      "link": "/blog/savoring-japan-culinary-voyage"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "imageUrl": "https://your-domain.com/images/students/khadija.jpg",
+      "name": "Khadija M.",
+      "location": "Barcelona, Morocco",
+      "review": "Fantastic Culinary Learning Experience! I enrolled in the Salad Symphony course, and I am absolutely blown away! I've learned so much in just a few sessions.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://your-domain.com/images/students/sarah.jpg",
+      "name": "Sarah K.",
+      "location": "Barcelona, Morocco",
+      "review": "A great Culinary Learning Experience! The course is well structured and the instructors make complex concepts easy to understand.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://your-domain.com/images/students/alex.jpg",
+      "name": "Alex R.",
+      "location": "Barcelona, Morocco",
+      "review": "The Savoring Japan masterclass exceeded my expectations. The instructors are experts in Japanese cuisine, and the live sessions provided a valuable opportunity to interact and seek guidance.",
+      "rating": 5
+    }
+  ]
+}
