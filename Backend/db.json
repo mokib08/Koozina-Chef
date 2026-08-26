@@ -262,44 +262,38 @@
     "resources": [
     {
       "id": 1,
-      "imageUrl": "https://your-domain.com/images/blogs/moroccan-cooking.jpg",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNRzO8eD1vjttfg7GQsa2i4cooQRb0NGvpioeflZYBYQ&s=10",
       "title": "Moroccan Cooking Art Masterclass",
       "description": "Embark on a culinary journey with our Moroccan Cooking Art Masterclass, where the rich tapestry of Moroccan flavors comes to life.",
-      "date": "Jun 1, 2024",
-      "category": "Blog",
-      "link": "/blog/moroccan-cooking-art-masterclass"
+      "date": "Jun 1, 2024"
     },
     {
       "id": 2,
-      "imageUrl": "https://your-domain.com/images/blogs/salmon-fresh-flavors.jpg",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq0Iqz0bQm4X6RlmPFhduYe_9liIFJCo4NymfBmW1ew&s=10",
       "title": "Salad Symphony: The Art of Fresh Flavors",
       "description": "Dive into a world of crisp greens, vibrant veggies, and tantalizing dressings with our Salad Symphony: Mastering the Art of Fresh Flavors.",
-      "date": "Jun 1, 2024",
-      "category": "Blog",
-      "link": "/blog/salad-symphony-fresh-flavors"
+      "date": "Jun 1, 2024"
     },
     {
       "id": 3,
-      "imageUrl": "https://your-domain.com/images/blogs/japanese-cuisine.jpg",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgP4hep5Pzd4amcwBKhwKvwgMga-6XH_uAaqdC-ZWkbA&s=10",
       "title": "Savoring Japan: A Culinary Voyage",
       "description": "Immerse yourself in the art of Japanese cuisine, where precision meets passion in every dish.",
-      "date": "Jun 1, 2024",
-      "category": "Blog",
-      "link": "/blog/savoring-japan-culinary-voyage"
+      "date": "Jun 1, 2024"
     }
   ],
   "testimonials": [
     {
       "id": 1,
-      "imageUrl": "https://your-domain.com/images/students/khadija.jpg",
-      "name": "Khadija M.",
+      "imageUrl": "https://i.pinimg.com/1200x/01/c4/3b/01c43bbb39cf74d24c9190d4832a080c.jpg",
+      "name": "John",
       "location": "Barcelona, Morocco",
       "review": "Fantastic Culinary Learning Experience! I enrolled in the Salad Symphony course, and I am absolutely blown away! I've learned so much in just a few sessions.",
       "rating": 5
     },
     {
       "id": 2,
-      "imageUrl": "https://your-domain.com/images/students/sarah.jpg",
+      "imageUrl": "https://i.pinimg.com/1200x/7d/83/b1/7d83b1574a0f5499944ecc08fad30180.jpg",
       "name": "Sarah K.",
       "location": "Barcelona, Morocco",
       "review": "A great Culinary Learning Experience! The course is well structured and the instructors make complex concepts easy to understand.",
@@ -307,7 +301,7 @@
     },
     {
       "id": 3,
-      "imageUrl": "https://your-domain.com/images/students/alex.jpg",
+      "imageUrl": "https://i.pinimg.com/736x/9c/f5/cc/9cf5cc7f939422d41b46ef083b76dd0b.jpg",
       "name": "Alex R.",
       "location": "Barcelona, Morocco",
       "review": "The Savoring Japan masterclass exceeded my expectations. The instructors are experts in Japanese cuisine, and the live sessions provided a valuable opportunity to interact and seek guidance.",

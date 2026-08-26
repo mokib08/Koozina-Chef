@@ -5,6 +5,7 @@ import { asyncLoadFeature } from './Store/Actions/FeatureAction'
 import { asyncLoadCourse } from './Store/Actions/CoursesAction'
 import { asyncLoadInstructor } from './Store/Actions/InstructorActions'
 import { asyncLoadResource } from './Store/Actions/ResourcesAction'
+import { asyncLoadTestimonial } from './Store/Actions/TestimonialsAction'
 
 const App = () => {
 
@@ -14,7 +15,8 @@ const App = () => {
     dispatch(asyncLoadCourse());
     dispatch(asyncLoadFeature());
     dispatch(asyncLoadInstructor());
-    dispatch(asyncLoadResource())
+    dispatch(asyncLoadResource());
+    dispatch(asyncLoadTestimonial());
   })
 
   return (

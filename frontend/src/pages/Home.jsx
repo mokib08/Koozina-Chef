@@ -6,6 +6,7 @@ import Features from '../components/Features/Features'
 import Crouses from '../components/Courses/Crouses'
 import Instructores from '../components/Instructors/Instructores'
 import Resources from '../components/Resources/Resources'
+import Testimonials from '../components/Testimonials/Testimonials'
 
 const Home = () => {
   return (
@@ -14,14 +15,19 @@ const Home = () => {
         <Navbar />
         <Hero />
       </div>
-      
+
       <TrustedPartners />
       <Features />
 
       <div className='px-[10%] py-[1.5rem]'>
         <Crouses />
         <Instructores />
-        <Resources />
+      </div>
+
+      <Resources />
+
+      <div className='px-[10%] py-[1.5rem]'>
+        <Testimonials />
       </div>
     </div>
   )
