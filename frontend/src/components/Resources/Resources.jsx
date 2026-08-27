@@ -3,7 +3,7 @@ import ResourceCard from './ResourceCard'
 
 const Resources = () => {
     return (
-        <div className='bg-red-100 py-[3em] px-[10em] '>
+        <div className='bg-red-100 py-[5.5em] px-[10em] '>
             <div className='flex justify-between items-baseline-last '>
                 <div className='w-[50%]'>
                     <small className='text-[1.2em] bg-red-200 rounded-[30px] px-[2em] py-2 text-red-600'>Blog</small>

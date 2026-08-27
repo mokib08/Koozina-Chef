@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
 
-            <div className='flex gap-[5rem] py-[10em]'>
+            <div className='flex gap-[5rem] py-[8em]'>
                 <FooterBrand />
                 <FooterColumn />
             </div>

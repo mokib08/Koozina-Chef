@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react'
-import Home from './pages/Home'
 import { useDispatch } from 'react-redux'
 import { asyncLoadFeature } from './Store/Actions/FeatureAction'
 import { asyncLoadCourse } from './Store/Actions/CoursesAction'
 import { asyncLoadInstructor } from './Store/Actions/InstructorActions'
 import { asyncLoadResource } from './Store/Actions/ResourcesAction'
 import { asyncLoadTestimonial } from './Store/Actions/TestimonialsAction'
+import Navbar from './components/Navbar/Navbar'
+import MainRoute from './Routes/MainRoute'
 
 const App = () => {
 
@@ -21,7 +22,8 @@ const App = () => {
 
   return (
     <div className='bg-red-50'>
-      <Home />
+      <Navbar  />
+      <MainRoute />
     </div>
   )
 }

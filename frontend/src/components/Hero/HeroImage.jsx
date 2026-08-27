@@ -9,7 +9,7 @@ const HeroImage = () => {
       <img className='w-[500px] translate-x-[5em] object-contain' src={chef1} alt="" />
 
       {/* Top right card */}
-      <div className="absolute top-[25em] right-[6rem] w-[14em]  p-[12px_16px] bg-white/95 rounded-[18px] shadow-[0_12px_35px_rgba(0,0,0,0.08)]  z-10">
+      <div className="absolute top-[29em] right-[6rem] w-[14em]  p-[12px_16px] bg-white/95 rounded-[18px] shadow-[0_12px_35px_rgba(0,0,0,0.08)]  z-10">
 
         <div className='flex items-baseline '>
           <div className="bg-red-100 py-2 px-3  rounded-[50%] ">

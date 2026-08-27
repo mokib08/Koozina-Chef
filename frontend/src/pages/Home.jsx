@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+// import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
 import TrustedPartners from '../components/TrustedPartners/TrustedPartners'
 import Features from '../components/Features/Features'
@@ -13,7 +13,6 @@ const Home = () => {
   return (
     <div>
       <div className=' px-[10%] py-[1.5rem]'>
-        <Navbar />
         <Hero />
       </div>
 
