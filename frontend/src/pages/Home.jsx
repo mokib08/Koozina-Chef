@@ -7,6 +7,7 @@ import Crouses from '../components/Courses/Crouses'
 import Instructores from '../components/Instructors/Instructores'
 import Resources from '../components/Resources/Resources'
 import Testimonials from '../components/Testimonials/Testimonials'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
 
       <div className='px-[10%] py-[1.5rem]'>
         <Testimonials />
+        <Footer />
       </div>
     </div>
   )
